@@ -1,3 +1,3 @@
 # Pig-dice-game
 
-Click on the [link](https://pigxdicexgame.netlify.app/)
+To see this project [click here...](https://pigxdicexgame.netlify.app/)
