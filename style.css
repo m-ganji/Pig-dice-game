@@ -169,3 +169,36 @@ main {
 .hidden {
   display: none;
 }
+
+button.btn.btn-dark {
+  background-color: #1a73e8;
+}
+
+@media screen and (max-width: 1020px) {
+  main {
+    margin: 1%;
+    height: 95%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  section.player.player--0 {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-100%);
+    height: 100%;
+  }
+  section.player.player--1 {
+    position: absolute;
+    left: 50%;
+    transform: translatex(0%);
+    height: 100%;
+  }
+  h2.name {
+    font-size: x-large;
+  }
+  .current {
+    width: 100%;
+  }
+}
